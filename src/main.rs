@@ -9,8 +9,10 @@ Para obtener más información sobre los otros tipos de colecciones proporcionad
 
 Discutiremos cómo crear y actualizar vectores, cadenas y mapas hash, así como también qué hace que cada uno sea especial.
  */
-pub mod vectores;
+mod vectores;
+mod cadena;
 
 fn main() {
     vectores::vector();
+    cadena::cadena();
 }

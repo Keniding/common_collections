@@ -145,7 +145,7 @@ Al eliminar un vector, también se elimina todo su contenido, lo que significa q
 
 ¡Pasemos al siguiente tipo de colección: String!
  */
-pub(crate) fn vector() {
+pub fn vector() {
     let v: Vec<i32> = Vec::new();
     println!("{:?}", v);
 
