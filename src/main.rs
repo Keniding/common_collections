@@ -11,8 +11,10 @@ Discutiremos cómo crear y actualizar vectores, cadenas y mapas hash, así como 
  */
 mod vectores;
 mod cadena;
+mod mapas;
 
 fn main() {
     vectores::vector();
     cadena::cadena();
+    mapas::mapas();
 }
